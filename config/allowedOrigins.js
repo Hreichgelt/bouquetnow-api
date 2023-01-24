@@ -1,5 +1,5 @@
-const allowedOrigins = [
-    'https://bouquetnow.onrender.com/'
-]
+// const allowedOrigins = [
+//     'https://bouquetnow.onrender.com/'
+// ]
 
-module.exports = allowedOrigins
+// module.exports = allowedOrigins

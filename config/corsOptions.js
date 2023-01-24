@@ -1,15 +1,15 @@
-const allowedOrigins = require('./allowedOrigins');
+// const allowedOrigins = require('./allowedOrigins');
 
-const corsOptions = {
-    origin: (origin, callback) => {
-        if (allowedOrigins.indedof(origin) !== -1 || !origin) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
-    },
-    credentials: true,
-    optionsSuccessStatus: 200
-}
+// const corsOptions = {
+//     origin: (origin, callback) => {
+//         if (allowedOrigins.indedof(origin) !== -1 || !origin) {
+//             callback(null, true)
+//         } else {
+//             callback(new Error('Not allowed by CORS'))
+//         }
+//     },
+//     credentials: true,
+//     optionsSuccessStatus: 200
+// }
 
-module.exports = corsOptions
+// module.exports = corsOptions
